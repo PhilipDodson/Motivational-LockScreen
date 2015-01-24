@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mainlockview"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/images">
+   
+    <Button
+        android:id="@+id/quote_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tap to refresh Quote"
+        android:textColor="#FFF"
+        android:gravity="center"
+        android:background="@drawable/btn_sel_quote"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/digitalClock1"
+        android:layout_marginTop="5dp" />
+    
+    <android.widget.DigitalClock
+        android:id="@+id/digitalClock1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sun 5th 2013"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="25dp" />
+    
+    <com.motive.lockscreen.widget.slider.SlidingTab
+        android:id="@+id/myslider"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10dp" />
+
+</RelativeLayout>

@@ -1,0 +1,24 @@
+<resources>
+
+    <string name="title_activity_prefs">Motive Lock Settings</string>
+
+    <!-- Strings related to Settings -->
+
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">General</string>
+    <string name="pref_title_social_recommendations">Random Motivationals</string>
+    <string name="pref_description_social_recommendations">If Checked, random motivationals will be used instead of daily motivationals.</string>
+    <string name="pref_title_display_name">Random Verses From Book No.:</string>
+    <string name="pref_title_add_friends_to_messages">Preferred Motivationals</string>
+
+    <string-array name="pref_example_list_titles">
+        <item>Quotes</item>
+        <item>Bible Verse</item>
+    </string-array>
+    <string-array name="pref_example_list_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+
+</resources>
